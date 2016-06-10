@@ -18,7 +18,7 @@ test('it renders', function(assert) {
 
   // Template block usage:
   this.render(hbs`
-    {{#component-apply "link-to" arrayArgs}}
+    {{#component-apply "-link-to" arrayArgs}}
       template block text
     {{/component-apply}}
   `);
