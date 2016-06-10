@@ -1,3 +1,5 @@
-{{#component-apply "link-to" (array "posts.post.view" 22 (query-params black="dude") (hash class="x-append"))}}
+{{#component-apply "link-to" (array "posts.post.view" 22 (query-params black="dude") ctrlHash)}}
   Regular array
 {{/component-apply}}
+
+<button click={{action "changeHash"}}>Change</button>
