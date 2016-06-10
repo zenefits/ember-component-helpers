@@ -1,7 +1,10 @@
 # Ember-component-helpers
-[![Build Status](https://travis-ci.org/foxnewsnetwork/ember-component-helpers.svg?branch=master)](https://travis-ci.org/foxnewsnetwork/ember-component-helpers)
+[![Build Status](https://travis-ci.org/zenefits/ember-component-helpers.svg?branch=master)](https://travis-ci.org/zenefits/ember-component-helpers)
 
-Some handlebar helpers for working with Ember components
+Some handlebar helpers for working with Ember components. 
+
+NOTE: This version only works in Ember 1.13, for a verison compatible with 2.0 and above, go back to the original version 
+(foxnewsnetwork/ember-component-helpers)
 
 ## Available Helpers
 * [`component-apply`](#component-apply)
@@ -26,8 +29,7 @@ Now with `component-apply` (and the `append` helper from [ember-composable-helpe
 ```
 This is particularly useful while we wait for https://github.com/wycats/handlebars.js/pull/1149 to come out
 
-* limitations: requires Ember 2.0 and above (sorry)
-** limitations: the array you pass in shouldn't be dynamic
+* limitations: the array you pass in shouldn't be dynamic
 
 
 #### `component-wrap`
