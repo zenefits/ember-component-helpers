@@ -1,3 +1,8 @@
-{{#component-apply "-link-to" (array "posts.post.view" 22 (query-params black="dude") ctrlHash) width=500}}
+{{#component-apply "-link-to" (array "posts.post.view" 22 (query-params black="dude") ctrlHash) target="_blank"}}
   Regular array
 {{/component-apply}}
+
+<div>
+  <p>Components rendered using this technique aren't bound</p>
+  <button click={{action "changeHashValue"}}>Change hash value</button>
+</div>
